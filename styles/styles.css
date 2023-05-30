@@ -1,3 +1,12 @@
+/* 
+Esta es la paleta de colores de mi proyecto:
+
+.color1 {color: #55959e;}
+.color2 {color: #469180;}
+.color3 {color: #b4caad;}
+.color4 {color: #ddd7c0;}
+.color5 {color: #efe7e1;} */
+
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +15,7 @@
     box-sizing: border-box;
 }
 body {
-    background: #f0f2f1;
-    font-family:'Courier New', Courier, monospace;
+    background: #efe7e1;
 }
 a {
     text-decoration: none;
@@ -60,4 +68,25 @@ figure .trasera {
     -ms-transform: perspective(600px) rotateY(180deg);
     -o-transform: perspective(600px) rotateY(180deg);
     transform: perspective(600px) rotateY(180deg);
+}
+.text-center{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.bienvenida {
+    color: #55959e;
+    font-family: 'Courier New', Courier, monospace;
+}
+.presentado {
+    color: #469180;
+    font-family: 'Courier New', Courier, monospace;
+}
+.parrafo {
+    color: #6e7a6b;
+    background-color: #efe7e1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.bg-color {
+    background-color: #ddd7c0;
 }
